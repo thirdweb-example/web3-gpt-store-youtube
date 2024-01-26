@@ -143,3 +143,25 @@
 .logo img {
   filter: invert(1);
 }
+
+.modelItem {
+  transition: all 0.2s ease-in-out;
+}
+.modelItem:hover {
+  background-color: #222;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.navLink {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+.navLink:hover {
+  background-color: #222;
+  cursor: pointer;
+}
